@@ -8,10 +8,10 @@ import com.shaft.gui.element.ElementActions;
 public class SearchResultsPage {
     private WebDriver browser;
 
-    /*
-     * This generic xpath for further use of all 9 results listed
-     * also the following xpath can be used for the first 6 results:
+    /* 
+     * The following xpath can be used for the first 6 results:
      * "//div[@id='rso']//h2[@class='bNg8Rb']/following-sibling::div//div[@class='r']//a"
+     * This generic xpath for further use of all 9 results listed
      */
     private String genericSearchResultXPath = "//div[@id='rso']/div[@class='g']//div//a/h3";
 
